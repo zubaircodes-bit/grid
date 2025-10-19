@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    height: 90vh;
+    margin: 100px 200px;
+   
+    grid-template-columns: repeat(3, 1fr);
+}
+.yellow{
+        background-color:  #fd815b;
+}
+.tomato{
+    background-color: #fd6057;
+}
+.orange{
+    background-color: #fea062;
+}
+.blue{
+    background-color:#02a787;
+}
+.blue2{
+    background-color:#1cc1a1;
+}
+.blue3{
+    background-color:#35daba;
+}
