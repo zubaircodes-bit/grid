@@ -12,7 +12,7 @@ html{
     gap: 10px;
     padding: 10px;
     /* height: 80vh; */
-    margin: 30px 30px;
+    margin: 3px 30px;
     grid-template-columns: repeat(3, 10rem);
     grid-template-rows: repeat(3, 10rem);
 }
@@ -21,9 +21,9 @@ html{
     gap: 10px;
     padding: 10px;
     /* height: 80vh; */
-    margin: 30px 30px;
+    margin: 3px 30px;
     grid-template-columns: repeat(3, 10rem);
-    grid-template-rows: repeat(4, 4rem);
+    grid-template-rows: repeat(4, 4.6rem);
 }
 /* Containers Ended */
 /* BG Colors */
@@ -57,6 +57,7 @@ html{
 /* Grid 2 Ended */
 .sabkabap{
     display: flex;
+    flex-wrap : wrap;
 }
 /* Grid 3 Started */
 #grid3-1{
