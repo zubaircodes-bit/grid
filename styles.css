@@ -48,6 +48,35 @@ html{
     grid-template-rows: repeat(5, 3rem);
     background-color: #2c3043;
 }
+.container5{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    /* height: 80vh; */
+    margin: 3px 30px;
+    grid-template-columns: repeat(2, 15.5rem);
+    grid-template-rows: repeat(3, 5rem);
+    background-color: #2c3043;
+}
+.container5-1{
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    /* height: 80vh; */
+    grid-template-columns: repeat(2, 6.8rem);
+    grid-template-rows: repeat(2, 4.5rem);
+}
+.container7{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    /* height: 80vh; */
+    margin: 3px 30px;
+    grid-template-columns: repeat(5, 6rem);
+    grid-template-rows: repeat(3, 5rem);
+    background-color: #2c3043;
+}
+
 /* Containers Ended */
 .children{
     background-color: #02a787;
@@ -119,7 +148,26 @@ grid-column: 1/3;
 #grid5-12{
   grid-row: 5/6;  
 }
-/* Grid 5 Ended */
+/* Grid 5 Ended */ 
+/* Grid 6 started */
+#grid6-3{
+    grid-row: 2/4;
+}
+#grid6-4{
+    grid-row: 2/4;
+}
+#grid6-1-1{
+    grid-column : 1/3;
+}
+/* Grid 6 Ended */
+/* Grid 7 Started */
+#grid7-8{
+    grid-column: 3/6;
+}
+#gird7-9{
+    grid-column : 1/6;
+}
+/* Grid 7 Ended */
 /* BG Colors */
 .yellow{
         background-color:  #fd815b;
